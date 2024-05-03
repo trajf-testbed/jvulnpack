@@ -43,4 +43,11 @@
         </plugins>
     </build>
 
+<distributionManagement>
+    <repository>
+	<id>github</id>
+	<url>https://maven.pkg.github.com/${env.GITHUB_ORG}/${project.name}</url>
+    </repository>
+</distributionManagement>
+
 </project>
